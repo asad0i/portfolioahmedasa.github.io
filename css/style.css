@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.5;
+    --black-100: #ffffff;
+}
+
+p {
+    color: black;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none !important;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul {
+    list-style: none;
+}
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+.top-logo img {
+    width: 190px;
+}
+
+.top-left-content p span {
+    color: rgb(0, 97, 163);
+}
+
+.desktop-menu {
+    background: red;
+    padding: 5px 0px;
+}
+
+.desktop-menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.our-primary-menu {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding: 0px 14px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+}
+
+.my-account-btn {
+    background: rgb(0, 97, 163);
+    position: absolute;
+    right: 0px;
+    padding: 13px 11px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.my-account-btn a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-list.float-right ul li {
+    margin: 0px 10px;
+}
+
+.social-list ul li a img {
+    width: 20px;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.mobile-header {
+    display: none;
+}
+
+.nav-logo {
+    display: block;
+    margin: auto;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.card-header img {
+    width: 185px;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+}
+
+.card-title h6 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-title a {
+    font-size: 14px;
+}
+
+.card-header-2 img {
+    width: 79px;
+}
+
+.card-header-2 {
+    padding: 10px 25px;
+    border: 3px solid rgb(224, 224, 224);
+    border-radius: 67px;
+    margin: 12px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title span {
+    color: rgb(19, 144, 42);
+    font-size: 27px;
+    line-height: 30px;
+    font-weight: 900;
+}
+
+.card-item-bottom {
+    background: rgb(0, 97, 163);
+    padding: 15px 14px;
+}
+
+.btn {
+    color: black;
+    padding: 10px 55px;
+    border-radius: 10px;
+    background: rgb(247, 211, 0) !important;
+}
+
+p#demo {
+    color: rgb(255, 255, 255);
+}
+
+.time {
+    margin-left: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.time i {
+    color: white;
+    margin: 0px 11px;
+}
+
+.time p {
+    color: rgb(255, 255, 255);
+}
+
+.main-heading {
+    background: red;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.card-header {
+    background: transparent;
+}
+
+.main-heading h3 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card.text-center {
+    width: 208px;
+    padding: 20px 0px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card-img-top {
+    padding: 20px 0px;
+    border: 3px solid rgb(224, 224, 224);
+    border-radius: 70px;
+    width: 82px;
+    display: block;
+    margin: auto;
+}
+
+.card-img-top img {
+    width: 71px;
+}
+
+.card-title {
+    margin-top: 15px;
+}
+
+.btn-2 {
+    padding: 10px 57px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: rgb(247, 211, 0) !important;
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+
+.card-title span {
+    font-size: 19px;
+    color: black;
+}
+
+.all-lotteries {
+
+    padding: 13px 42px;
+    text-align: right;
+}
+
+.winner-heading {
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.winner-heading h5 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.price-money img {
+    width: 70px;
+}
+
+.price-money h6 {
+    margin: 10px 13px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.price-money span {
+    font-size: 36px;
+    color: #0061A3;
+    font-weight: 600;
+}
+
+.winner-img {
+    background-image: url(../img/Ресурс\ 1\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.result-code ul li {
+    margin: 0px 4px;
+    background: red;
+    padding: 2px 5px;
+    border-radius: 50px;
+    color: white;
+}
+
+.result-code ul li:first-child {
+    background-color: transparent;
+    color: #000;
+}
+
+.result-code span {
+    font-size: 14px;
+}
+
+.winner-info h6 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.winner-info p {
+    margin: 10px 0;
+}
+
+.winner-info a {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.btn-3 {
+    padding: 10px 120px;
+    border-radius: 10px;
+}
+
+.winner-btn {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.card-body.text-center h6 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.card-body.text-center span {
+    font-size: 26px;
+    color: #13902A;
+    font-weight: 600;
+}
+
+.card-body.text-center h3 {
+    font-weight: 600;
+}
+
+.card-body.text-center h3 span {
+    color: #000;
+    font-weight: 400;
+
+}
+
+
+.faq .accordion-item:not(last-child) {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #6262;
+    padding-bottom: 10px;
+}
+
+.faq .accordion-header:not(.collapsed) {
+    background-color: transparent;
+    color: #000;
+}
+
+.faq .accordion-header {
+    box-shadow: var(--shadow-black-100);
+    padding: 0px 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.faq .accordion-header::before {
+    content: "\f107";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-30px);
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--black-400);
+    transition: all 0.5s ease;
+}
+
+.faq .accordion-header:not(.collapsed)::before {
+    content: "\f106";
+    color: ffffff;
+}
+
+.faq .accordion-header h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0061A3;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+.faq .accordion-header:not(.collapsed) h3 {
+    color: #000;
+}
+
+.accordorin-body {
+    padding: 20px 30px;
+    background: var(--black-100);
+    color: whit
+}
+
+.faq .accordion-body:not(.collapsed) p {
+    color: #ffffff;
+}
+
+.faq .accordion-body p {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-100);
+    line-height: 26px;
+    margin: 0;
+
+}
+
+.section-title h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 17px;
+}
+
+/* Footer css start */
+
+/* .footer {
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+} */
+
+.chat-option img {
+    width: 46px;
+    margin-right: 17px;
+}
+
+.inner-option span {
+    font-size: 12px;
+    color: #5F5F5F;
+}
+
+.inner-option p {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.all-content {}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-col ul li a i {
+    font-size: 22px;
+    margin: 0px 15px;
+}
